@@ -1,0 +1,7 @@
+깃허브에서 remote repository 만들고
+로컬에서 폴더 만들고 
+cmd 그 로컬 폴더 위치로 이동하고 git clone 주소 입력하면 연동됨 ( 로컬 폴더 안에 연동된 repository
+파일 생성하거나 파일 내용 변경하면 git add 해야 commit 가능,     여러개는 git add .
+git commit -m  "설명하고싶은 내용"
+git status ->  변경사항확인  (git add 해야할 것 확인) 
+git push - > remote repository에 올리기
