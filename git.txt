@@ -4,18 +4,11 @@ cmd 그 로컬 폴더 위치로 이동하고 git clone 주소 입력하면 연�
 git clone은 다운로드 느낌
 cmd 로컬 폴더 안에 연동된 repo 위치로 이동하고
 파일 생성하거나 파일 내용 변경하면 git add 해야 commit 가능,     여러개는 git add .
-<<<<<<< HEAD
 git add 파일명 -> staging area에  수정된 내역을 올려준다.
-=======
-git add 파일명-> staging area에 수정된 내역을 올려준다
->>>>>>> f0fac3bbde1a3894fb987e3aebbdd4ef9fd9c975
 git commit -m  "설명하고싶은 내용"
 git commit --amend  ->  commit 내용수정
 git status ->  변경사항확인 
 git push - > remote repository에 올리기
-<<<<<<< HEAD
 git log  -> 깃 로그 내역 확인,   q로 나올수 있다
 git reset --hard 커밋 해쉬값(git log로 커밋 해쉬값을 알 수 있다) -> 해당 커밋지점으로 이동하고 이후의 발생한 커밋들은 삭제한다.
-=======
-git log  -> 깃 로그 내역 확인,   q로 나올수 있다
->>>>>>> f0fac3bbde1a3894fb987e3aebbdd4ef9fd9c975
+
