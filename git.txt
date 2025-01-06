@@ -9,3 +9,4 @@ git commit -m  "설명하고싶은 내용"
 git commit --amend  ->  commit 내용수정
 git status ->  변경사항확인 
 git push - > remote repository에 올리기
+git log  -> 깃 로그 내역 확인,   q로 나올수 있다
