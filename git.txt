@@ -8,7 +8,8 @@ git add 파일명 -> staging area에  수정된 내역을 올려준다.
 git commit -m  "설명하고싶은 내용"
 git commit --amend  ->  commit 내용수정
 git status ->  변경사항확인 
-git push - > remote repository에 올리기
+git push - > remote(깃허브) repository에 올리기
+git push -f -> 깃허브 저장소에 로컬 저장소와 완전히 동일하게 만들 수 있다
 git log  -> 깃 로그 내역 확인,   q로 나올수 있다
 git reset --hard 커밋 해쉬값(git log로 커밋 해쉬값을 알 수 있다) -> 해당 커밋지점으로 이동하고 이후의 발생한 커밋들은 삭제한다.
 
